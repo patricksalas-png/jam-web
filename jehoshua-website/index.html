@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Jehoshua Academy of Marikina</title>
+  <link rel="icon" href="images/logo.jpg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="top">
+    <div class="w">
+      <span>86 Southwest Dao Street, Marikina Heights, Marikina City</span>
+      <span>0917-628-3102 · 8-696-9987 · info@jehoshuaacademy.org</span>
+    </div>
+  </div>
+
+  <!-- ===== HEADER: logo, search, light/dark button, login, apply ===== -->
+  <header>
+    <div class="w">
+      <a class="brand" href="#/home">
+        <img src="images/logo.jpg" alt="Jehoshua Academy logo">
+        <span>
+          <b>Jehoshua Academy</b>
+          <small>of Marikina, Inc. · Since 1994</small>
+        </span>
+      </a>
+
+      <form class="sr" id="sf">
+        <input id="q" type="search" placeholder="Search the website…" aria-label="Search">
+        <button>Search</button>
+      </form>
+
+      <button class="tg" id="tg" aria-label="Switch between light and dark mode"></button>
+      <span id="auth"></span>
+      <a class="btn a" href="#/admissions">Apply / Enroll</a>
+    </div>
+  </header>
+
+  <!-- ===== MAIN MENU ===== -->
+  <nav id="nav">
+    <div class="w">
+      <button id="mb">☰ Menu</button>
+      <ul>
+        <li><a href="#/home">Home</a></li>
+        <li><a href="#/about">About the School</a></li>
+        <li><a href="#/lessons">Lessons</a></li>
+        <li><a href="#/admissions">Admissions</a></li>
+        <li><a href="#/fees">Fees &amp; Payments</a></li>
+        <li><a href="#/news">News &amp; Events</a></li>
+        <li><a href="#/contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE CONTENT (js/app.js draws each page here) ===== -->
+  <main id="app"></main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="w">
+      <div class="g">
+        <div>
+          <h3>Jehoshua Academy of Marikina, Inc.</h3>
+          86 Southwest Dao Street<br>
+          Marikina Heights, Marikina City<br>
+          0917-628-3102 · 8-696-9987<br>
+          info@jehoshuaacademy.org
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <a href="#/about">About the School</a>
+          <a href="#/admissions">Admissions</a>
+          <a href="#/fees">Fees &amp; Payments</a>
+          <a href="#/lessons">Lessons (school email only)</a>
+        </div>
+        <div>
+          <h3>Help</h3>
+          <a href="#/contact">Contact &amp; FAQ</a>
+          <a href="#/policies">Privacy, Terms &amp; Academic Policies</a>
+          <a href="#/news">Events Calendar</a>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <a href="https://www.facebook.com/jehoshuaacademyofmarikina" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+      <div class="bot">© 2026 Jehoshua Academy of Marikina, Inc. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- pop-up message -->
+  <div id="toast"></div>
+
+  <!-- ===== SCRIPTS (keep this order) ===== -->
+ <script src="js/config.js"></script>
+ <script src="js/lessons.js"></script>
+ <script src="js/content.js"></script>
+ <script src="js/app.js"></script>
+
+</body>
+
+</html>
